@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>styling med CSS</title>
+    <!--Her referere vi til fonten merriweather fra google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <!--"Internt style sheet"-->
+    <style>
+      /*Css deles op i 3 dele: selector - Property - Value*/
+    h1{
+      /*man kan sætte komma til andre skrifttyper, hvis nu der er
+       en der ikke har given skrifttype installeret*/
+      font-family: arial, verdana, sans-serif;
+      Font-size: 42px;
+      font-style: italic;
+      color: green;
+      background-color: #ccc;
+      text-align: center;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+margin-top: 51px;
+      margin-right: 92px;
+      margin-bottom: 102px;
+      margin-left: 10px;
+      /*ovenstående er det samme som:margin: 100px 92px 102px 51px;
+      Starter med toppen og går uret rundt*/
+      padding: 50px;
+      border: 8px dashed orange;
+      /*border: 1px solid orange;*/
+      /*text-decoration: underline;*/
+Width: 500px;
+    }
+    /*rgb-farvekoder*/
+    body {
+      background-image:url("salmon.jpg");
+      backgrund-repeat:no-repeat;
+      /*background-position: 50% 50%;*/
+      Background-size: cover;
+      /*background-attachment: fixed;*/
+    }
+p {
+font-family: 'Merriweather', serif;
+font-size: 18px;
+font-weight: bold;
+text-align: justify;
+line-height: 150%;
+letter-spacing: 1px;
+}
+a {
+font-family: 'Merriweather', serif;
+Color: yellow;
+border: 2px dotted red;
+Padding: 10px;
+
+}
+/*kun links brugeren ikke har besøgt før*/
+a:link {
+color: beige;
+}
+/*kun links brugeren har besøgt før*/
+a:visited{
+Color:purple;
+}
+/*kun når musen er hen over et link*/
+a:hover {
+  Font-family: arial;
+  color:grey;
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 30px;
+}
+/*kun i sekundet når musen klikker på et link*/
+a:active {
+color:red;
+
+}
+    </style>
+  </head>
+  <body>
+
+    <!-- Når CSS skrives inde i et tag som en attribut, kaldes det for "inlinestyle" -->
+    <h1>Styling med CSS</h1>
+    <p style="color:blue;">Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididuntut labore
+      et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+       Duis aute irure dolor in reprehenderit in voluptate velit
+       esse cillum dolore eu fugiat nulla pariatur.
+       Excepteur sint occaecat cupidatat non proident,
+       sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+       <h1>En anden overskrift</h1>
+       <a href="https://cphbusiness.mrooms.net" target="_blank">dette er et link hahahah</a>
+
+       <a href="https://cphbusiness.mrooms.net/Noget-andet.html">et andet link</a>
+  </body>
+</html>

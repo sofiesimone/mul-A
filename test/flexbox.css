@@ -1,0 +1,45 @@
+body{
+  background-color: lightblue;
+}
+/*#referere til et id*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+      height: 1200px;
+      align-items:flex-start;
+
+}
+#katte1{
+  background-color:grey;
+  width: 50%;
+
+}
+#katte2 {
+  background-color: burlywood;
+  width: 50%;
+}
+/*.referere til en klasse (class). En klasse kan bruges flere gange.*/
+.kitty1 {
+color:red;
+width: 50%;
+  }
+.kitty2 {
+  color:blue;
+  width: 50%;
+}
+.highlight {
+  background-color: yellow;
+}
+.katte3 {
+  background-color: orange;
+  margin: 40px;
+  padding: 30px;
+  border: 1px solid #333;
+}
+.special {
+  order: -1;
+}
+.tilsidst{
+  order: 1;
+}
