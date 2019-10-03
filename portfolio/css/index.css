@@ -1,0 +1,39 @@
+/*Nulstiling*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Navigation*/
+.menu {
+  display:flex;
+  justify-content: space-between;
+  background-color: #C1FFD1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.logo {
+  color: #858483;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
+  padding: 15px;
+  color: #858483;
+}
+.menu a:hover {
+  background-image:linear-gradient(#C1FFD1, white);
+}
+
+
+img {
+  width:1280px;
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+  margin-top: 40px;
+}
