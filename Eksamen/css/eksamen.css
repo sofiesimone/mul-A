@@ -1,0 +1,591 @@
+/*Nulstiling*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Navigation*/
+.menu {
+  display:flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.logo {
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+}
+.logoimg {
+  width: 70px;
+  text-decoration: none;
+margin-top:-18px;
+margin-bottom: -30px;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-left: 11px;
+
+}
+.logoimg:hover {
+  background-color: #7D7D7D;
+}
+.logoimg2 {
+  width: 70px;
+  text-decoration: none;
+  margin-top:-28px;
+  margin-bottom: -20px;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-left: 11px;
+
+}
+.logoimg2:hover {
+  background-color: #7D7D7D;
+}
+
+.menulink {
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.menu .menulink:hover {
+  background-color: #7D7D7D;
+}
+/*forsiden*/
+
+.forsidesection {
+  height: 700px;
+  background-color: #000000;
+}
+
+
+#f  {
+  position: absolute;
+  top: -550px;
+  left: 478px;
+
+  }
+/*Projekter grids og text design*/
+
+.pro {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  margin-top: 10px;
+  width:100%;
+  text-align: center;
+}
+
+.pro img {
+  width: 300px;
+  height: 300px;
+}
+.items{
+  display: flex;
+  position:relative;
+  justify-content: space-around;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table
+{
+font-family: helvetica, arial, sans-serif;
+}
+.text {
+ display:flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ height: 302px;
+ width: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ visibility:hidden;
+ color: white;
+ background:rgba(0, 0, 0, 0.8);
+ opacity:0;
+ transition: opacity 0.5s;
+ font-family: helvetica, arial, sans-serif;
+ font-size: 20px;
+}
+
+.items:hover .text {
+  opacity: 1;
+  visibility: visible;
+}
+.cykel1 {
+  margin-left:40px;
+  margin-top:40px;
+height: 80%;
+width: 80%;
+}
+
+.text2{
+  margin-top: 40px;
+margin-right: 80px;
+
+}
+.p1 {
+display: grid;
+grid-template-columns: 60% 40%;
+grid-template-rows: auto auto 80%;
+grid-column-gap: 0px;
+grid-row-gap: 20px;
+
+
+
+font-size: 15px;
+font-family: helvetica, arial, sans-serif;
+
+}
+
+
+/*Kontakt formular*/
+.containerkontakt{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.kontaktformular
+{
+  font-family: helvetica, arial, sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.beskedkontakt
+{
+  font-family: helvetica, arial, sans-serif;
+}
+
+.sendknap
+{
+  font-family: helvetica, arial, sans-serif;
+}
+input[type=submit]{
+background-color: #BFC6FF;
+  border: 1px, black;
+  font-size: 20px;
+  color: white;
+  padding: 10px 22px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.beskedskrift
+{
+  font-family: helvetica, arial, sans-serif;
+}
+
+.billede1{
+  width: 600px;
+  height: 600px;
+}
+/*Om mig siden*/
+.ommigcontainer {
+  display: flex;
+  flex-direction: row;
+  font-family: helvetica, arial, sans-serif;
+}
+.ommigtext {
+  padding-left: 30px;
+  padding-right: 70px;
+  padding-top: 20px;
+  line-height: 1.8;
+}
+
+
+
+ul{
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.8;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+/*Flow 1 siden*/
+p {
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.8;
+}
+.flow1opgave {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.flow1remake{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.flow2reflektion{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+h2 {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.flow1billede {
+ display:flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ top: 0px;
+ left:0px;
+ visibility:hidden;
+ color: white;
+ background:rgba(0, 0, 0, 0.8);
+ opacity:0;
+ transition: opacity 0.5s;
+ font-family: helvetica, arial, sans-serif;
+ font-size: 20px;
+}
+.flow1billedecontainer {
+  position: relative;
+}
+.flow1billedecontainer:hover .flow1billede {
+  opacity: 1;
+  visibility: visible;
+}
+/*Flow 2 siden*/
+.ulflow2{
+  margin-left: 50px;
+}
+.flow2billede {
+ display:flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ visibility: hidden;
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ top: 0px;
+ left:0px;
+ color: white;
+ background:rgba(0, 0, 0, 0.8);
+ opacity:0;
+ transition: opacity 0.5s;
+ font-family: helvetica, arial, sans-serif;
+ font-size: 20px;
+}
+.flow2billedecontainer {
+  position: relative;
+}
+.flow2billedecontainer:hover .flow2billede {
+  opacity:1;
+  visibility: visible;
+}
+
+.flow2reflektion {
+margin-left: 80px;
+margin-right: 80px;
+}
+.knapper {
+padding: 5px 20px;
+display: inline-block;
+width: 15px;
+margin: 2px;
+border: 20px #BFC6FF;
+background: #BFC6FF;
+text-decoration: none;
+font-family: helvetica, arial, sans-serif;
+border-radius: 20px;
+color: black;
+/*text-align: center;*/
+/*box-shadow: 10px,10px, 5px, grey;*/
+}
+.knapper:hover {
+background-image: linear-gradient(#BFC6FF,#ffffff);
+}
+/*Flow 3 siden*/
+.flow3container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.nycontainerf3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flow3tekst{
+  margin-left: 80px;
+  margin-right: 80px;
+  line-height: 1.8;
+}
+.box3o {
+  display: flex;
+  justify-content: center;
+}
+.flow3pic{
+  width: 400px;
+}
+.box3visable{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  color: white;
+  background:rgba(0, 0, 0, 0.8);
+  opacity:0;
+  transition: opacity 0.5s;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 20px;
+}
+.box3 {
+  position: relative;
+}
+.box3:hover .box3visable{
+  opacity:1;
+  visibility: visible;
+}
+.flow3reflektion {
+margin-left: 80px;
+margin-right: 80px;
+}
+/*Flow 4 siden*/
+.flow4reflektion {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  display: flex;
+  justify-content:center;
+}
+.downloadflow4{
+  display: flex;
+  justify-content: center;
+
+}
+.flow4downloadimg {
+  width: 150px;
+  height: 200px;
+}
+.legovideo {
+  display: flex;
+  justify-content: center;
+}
+.flow4tekst {
+  margin-left: 80px;
+  margin-right: 80px;
+  line-height: 1.8;
+}
+.flow4visable {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  color: white;
+  background:rgba(0, 0, 0, 0.8);
+  opacity:0;
+  transition: opacity 0.5s;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 20px;
+}
+.flow4container{
+  position: relative;
+}
+.flow4container:hover .flow4visable{
+  opacity:1;
+  visibility: visible;
+}
+/*Flow 5 siden*/
+
+.h1flow5 {
+  font-family: helvetica, arial, sans-serif;
+  display: flex;
+  justify-content:center;
+
+}
+.flow5tekst {
+  margin-left: 80px;
+  margin-right: 80px;
+  line-height: 1.8;
+}
+.pbsflow5 {
+  display: flex;
+  justify-content: center;
+}
+.wbsflow5 {
+  display: flex;
+  justify-content: center;
+}
+.wbsimgflow5 {
+  max-width: 100%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.ganttflow4visable {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  color: white;
+  background:rgba(0, 0, 0, 0.8);
+  opacity:0;
+  transition: opacity 0.5s;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 20px;
+}
+.ganttcontainerflow5 {
+  position: relative;
+
+}
+.ganttcontainerflow5:hover .ganttflow4visable{
+  visibility: visible;
+  opacity:1;
+}
+
+.wireframevisableflow5 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  height:100%;
+  width:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  background:rgba(0, 0, 0, 0.8);
+  opacity:0;
+  transition: opacity 0.5s;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 20px;
+}
+.wireframecontainerflow5 {
+  position: relative;
+}
+.wireframecontainerflow5:hover .wireframevisableflow5 {
+  visibility: visible;
+  opacity: 1;
+}
+.kodevisableflow5{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  height:100%;
+  width:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  background:rgba(0, 0, 0, 0.8);
+  opacity:0;
+  transition: opacity 0.5s;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 20px;
+}
+.kodecontainerflow5 {
+  position: relative;
+
+}
+.imgkodeflow5 {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%
+}
+.kodecontainerflow5:hover .kodevisableflow5{
+  visibility: visible;
+  opacity: 1;
+}
+
+.containerflow5farve {
+display: flex;
+justify-content: center;
+flex-direction: row;
+
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.containerflow5farve img {
+  width: 180px;
+}
+.containerflow5type{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.containerflow5type img {
+max-width: 150px;
+max-height: 150px;
+}
+
+.containerflow5logocre {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.containerflow5logocre img {
+  max-width: 150px;
+  max-height: 150px;
+}
+/*Footer*/
+
+footer {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+ footer h4 {
+   color: #ffffff;
+   font-family: helvetica, arial, sans-serif;
+ }
+
+ Footer p {
+   color: #ffffff;
+   font-family: helvetica, arial, sans-serif;
+ }
+ .disclamer{
+   font-size: 10px;
+ }
+ .footercontainer {
+   display: flex;
+   justify-content: space-between;
+ }
+ .footerdiv2{
+   margin-right: 100px;
+ }
+
+ .footerdiv1{
+   margin-left: 15px;
+ }
+ footer a {
+   text-decoration: none;
+ }
